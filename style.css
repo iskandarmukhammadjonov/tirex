@@ -1,0 +1,136 @@
+/* reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* styles for the header section */
+  header {
+    background-color: #1C1C1C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* styles for the main section */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .featured {
+    margin-bottom: 40px;
+  }
+  
+  .featured h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .featured ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featured li {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .featured li img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .featured li h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .featured li p {
+    margin-bottom: 20px;
+  }
+  
+  .featured li button {
+    background-color: #E53D00;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .blog {
+    margin-bottom: 40px;
+  }
+  
+  .blog h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .blog ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blog li {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .blog li img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .blog li h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog li p {
+    margin-bottom: 20px;
+  }
+  
+  .blog li a {
+    background-color: #E53D00;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .blog li a:hover {
+    background-color: #ff6347;
+  }
+  
+  /* styles for the footer section */
+  footer {
+    background-color: #1C1C1C;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
